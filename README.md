@@ -1,28 +1,27 @@
- <div align="center">
+<div align="center">
 
-<img src="https://capsule-render.vercel.app/api?type=waving&color=0:0f0c29,50:302b63,100:24243e&height=220&section=header&text=Ziad%20Ali&fontSize=60&fontColor=00ff9d&animation=fadeIn&fontAlignY=38&desc=CS%20Student%20%7C%20Systems%20and%20AI%20Enthusiast&descAlignY=58&descSize=18&descColor=00d4ff" width="100%"/>
+# ⚡ ZeroLayerOS
 
-<img src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=24&duration=3000&pause=800&color=00FF9D&center=true&vCenter=true&width=650&lines=root%40ziad-ali%3A~%24+whoami;CS+Student+%7C+Rust+%2B+ML+%2F+DS+%2F+DL+%2F+DSA;root%40ziad-ali%3A~%24+cat+focus.txt;Learning+Systems+Programming+%26+AI;root%40ziad-ali%3A~%24+echo+%22Always+building...%22" alt="Typing SVG" />
+### `root@ziad-ali:~$ whoami`
+
+**CS Student | Low-Level Systems Engineer**
 
 </div>
 
 <br/>
 
-<table align="center">
-<tr>
-<td>
-
-```bash
+```
 ┌──(ziad㉿machine)-[~/about-me]
 └─$ cat profile.json
 ```
+
 ```json
 {
   "name": "Ziad Ali",
   "role": "CS Student",
   "status": "Learning & Building",
   "currently_learning": [
-    "Rust 🦀",
+    "Rust",
     "Machine Learning",
     "Deep Learning",
     "Data Structures & Algorithms",
@@ -31,13 +30,9 @@
   ],
   "shell": "zsh",
   "editor": "neovim",
-  "coffee_level": "critical ☕"
+  "coffee_level": "critical"
 }
 ```
-
-</td>
-</tr>
-</table>
 
 <br/>
 
@@ -45,7 +40,18 @@
 
 <div align="center">
 
-<img src="https://skillicons.dev/icons?i=rust,py,cpp,c,pytorch,tensorflow,sklearn,linux,git,vscode,docker,bash&theme=dark" />
+![Rust](https://img.shields.io/badge/Rust-000000?style=for-the-badge&logo=rust&logoColor=white)
+![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white)
+![C++](https://img.shields.io/badge/C%2B%2B-00599C?style=for-the-badge&logo=cplusplus&logoColor=white)
+![C](https://img.shields.io/badge/C-A8B9CC?style=for-the-badge&logo=c&logoColor=black)
+![PyTorch](https://img.shields.io/badge/PyTorch-EE4C2C?style=for-the-badge&logo=pytorch&logoColor=white)
+![TensorFlow](https://img.shields.io/badge/TensorFlow-FF6F00?style=for-the-badge&logo=tensorflow&logoColor=white)
+![scikit-learn](https://img.shields.io/badge/scikit--learn-F7931E?style=for-the-badge&logo=scikitlearn&logoColor=white)
+![Linux](https://img.shields.io/badge/Linux-FCC624?style=for-the-badge&logo=linux&logoColor=black)
+![Git](https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white)
+![Docker](https://img.shields.io/badge/Docker-2496ED?style=for-the-badge&logo=docker&logoColor=white)
+![Bash](https://img.shields.io/badge/Bash-4EAA25?style=for-the-badge&logo=gnubash&logoColor=white)
+![Neovim](https://img.shields.io/badge/Neovim-57A143?style=for-the-badge&logo=neovim&logoColor=white)
 
 </div>
 
@@ -76,18 +82,15 @@
 
 <br/>
 
-## `$ ./run_stats.sh`
+## `$ cat status.log`
 
-<div align="center">
-
-<img height="165em" src="https://github-readme-stats.vercel.app/api?username=ZeroLayerOS&show_icons=true&theme=tokyonight&hide_border=true&bg_color=0d1117&title_color=00ff9d&icon_color=00d4ff&text_color=c9d1d9" />
-<img height="165em" src="https://github-readme-stats.vercel.app/api/top-langs/?username=ZeroLayerOS&layout=compact&theme=tokyonight&hide_border=true&bg_color=0d1117&title_color=00ff9d&text_color=c9d1d9" />
-
-<br/>
-
-<img src="https://github-readme-streak-stats.herokuapp.com/?user=ZeroLayerOS&theme=tokyonight&hide_border=true&background=0d1117&ring=00ff9d&fire=00d4ff&currStreakLabel=00ff9d" />
-
-</div>
+```diff
++ [OK]      Currently studying Rust ownership & borrowing
++ [OK]      Solving DSA problems daily
+~ [BUILD]   Working through ML/DL fundamentals
+~ [BUILD]   Exploring OS/systems programming concepts
+! [NEXT]    Open to collaborating on systems or ML projects
+```
 
 <br/>
 
@@ -95,7 +98,7 @@
 
 <div align="center">
 
-[![GitHub](https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=00ff9d)](https://github.com/ZeroLayerOS)
+[![GitHub](https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/ZeroLayerOS)
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/ziad-ali-ds/)
 
 </div>
@@ -104,14 +107,9 @@
 
 <div align="center">
 
-<img src="https://raw.githubusercontent.com/ZeroLayerOS/ZeroLayerOS/output/github-contribution-grid-snake-dark.svg" width="100%" />
+```
+$ echo "Thanks for stopping by :)"
+> Thanks for stopping by :)
+```
 
 </div>
-
-<div align="center">
-
-![Profile Views](https://komarev.com/ghpvc/?username=ZeroLayerOS&color=00ff9d&style=flat-square&label=PROFILE+VIEWS)
-
-</div>
-
-<img src="https://capsule-render.vercel.app/api?type=waving&color=0:24243e,50:302b63,100:0f0c29&height=100&section=footer" width="100%"/>
