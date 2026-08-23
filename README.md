@@ -1,10 +1,6 @@
 <div align="center">
 
-<img src="./assets/header.svg" width="100%" alt="ZeroLayerOS header"/>
-
-<br/>
-
-<img src="./assets/typing.svg" width="600" alt="terminal typing animation"/>
+<img src="./assets/fetch.svg" width="680" alt="fastfetch style info"/>
 
 </div>
 
