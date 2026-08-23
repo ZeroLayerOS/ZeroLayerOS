@@ -1,0 +1,45 @@
+<svg width="700" height="230" viewBox="0 0 700 230" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <filter id="glow2" x="-50%" y="-50%" width="200%" height="200%">
+      <feGaussianBlur stdDeviation="1.5" result="blur"/>
+      <feMerge>
+        <feMergeNode in="blur"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+    <mask id="m1"><rect x="0" y="0" width="0" height="230" fill="#fff">
+      <animate attributeName="width" from="0" to="700" dur="1.6s" begin="0.3s" fill="freeze"/>
+    </rect></mask>
+    <mask id="m2"><rect x="0" y="0" width="0" height="230" fill="#fff">
+      <animate attributeName="width" from="0" to="700" dur="1.3s" begin="2.1s" fill="freeze"/>
+    </rect></mask>
+    <mask id="m3"><rect x="0" y="0" width="0" height="230" fill="#fff">
+      <animate attributeName="width" from="0" to="700" dur="1.8s" begin="3.6s" fill="freeze"/>
+    </rect></mask>
+    <mask id="m4"><rect x="0" y="0" width="0" height="230" fill="#fff">
+      <animate attributeName="width" from="0" to="700" dur="1.5s" begin="5.6s" fill="freeze"/>
+    </rect></mask>
+  </defs>
+
+  <rect width="700" height="230" rx="10" fill="#0d1117"/>
+
+  <rect width="700" height="34" rx="10" fill="#161b22"/>
+  <rect y="24" width="700" height="10" fill="#161b22"/>
+  <circle cx="22" cy="17" r="6" fill="#ff5f56"/>
+  <circle cx="44" cy="17" r="6" fill="#ffbd2e"/>
+  <circle cx="66" cy="17" r="6" fill="#27c93f"/>
+  <text x="350" y="22" text-anchor="middle" font-family="Consolas, monospace" font-size="12" fill="#8b949e">
+    ziad@zerolayeros: ~
+  </text>
+
+  <g font-family="Consolas, 'Courier New', monospace" font-size="19" filter="url(#glow2)">
+    <text x="24" y="70" fill="#00ff9d" mask="url(#m1)">root@ziad-ali:~$ whoami</text>
+    <text x="24" y="105" fill="#00d4ff" mask="url(#m2)">CS Student | Rust + ML / DS / DL / DSA</text>
+    <text x="24" y="140" fill="#00ff9d" mask="url(#m3)">root@ziad-ali:~$ cat focus.txt</text>
+    <text x="24" y="175" fill="#00d4ff" mask="url(#m4)">Learning Systems Programming &amp; AI</text>
+
+    <rect x="24" y="182" width="11" height="20" fill="#00ff9d">
+      <animate attributeName="opacity" values="1;0;1" dur="1s" begin="7.1s" repeatCount="indefinite"/>
+    </rect>
+  </g>
+</svg>
