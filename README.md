@@ -40,18 +40,18 @@
 
 <div align="center">
 
-![Rust](https://img.shields.io/badge/Rust-000000?style=for-the-badge&logo=rust&logoColor=white)
-![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white)
-![C++](https://img.shields.io/badge/C%2B%2B-00599C?style=for-the-badge&logo=cplusplus&logoColor=white)
-![C](https://img.shields.io/badge/C-A8B9CC?style=for-the-badge&logo=c&logoColor=black)
-![PyTorch](https://img.shields.io/badge/PyTorch-EE4C2C?style=for-the-badge&logo=pytorch&logoColor=white)
-![TensorFlow](https://img.shields.io/badge/TensorFlow-FF6F00?style=for-the-badge&logo=tensorflow&logoColor=white)
-![scikit-learn](https://img.shields.io/badge/scikit--learn-F7931E?style=for-the-badge&logo=scikitlearn&logoColor=white)
-![Linux](https://img.shields.io/badge/Linux-FCC624?style=for-the-badge&logo=linux&logoColor=black)
-![Git](https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white)
-![Docker](https://img.shields.io/badge/Docker-2496ED?style=for-the-badge&logo=docker&logoColor=white)
-![Bash](https://img.shields.io/badge/Bash-4EAA25?style=for-the-badge&logo=gnubash&logoColor=white)
-![Neovim](https://img.shields.io/badge/Neovim-57A143?style=for-the-badge&logo=neovim&logoColor=white)
+![Rust](https://img.shields.io/badge/Rust-343d41?style=for-the-badge&logo=rust&logoColor=de6145)
+![Python](https://img.shields.io/badge/Python-343d41?style=for-the-badge&logo=python&logoColor=de6145)
+![C++](https://img.shields.io/badge/C%2B%2B-343d41?style=for-the-badge&logo=cplusplus&logoColor=de6145)
+![C](https://img.shields.io/badge/C-343d41?style=for-the-badge&logo=c&logoColor=de6145)
+![PyTorch](https://img.shields.io/badge/PyTorch-343d41?style=for-the-badge&logo=pytorch&logoColor=de6145)
+![TensorFlow](https://img.shields.io/badge/TensorFlow-343d41?style=for-the-badge&logo=tensorflow&logoColor=de6145)
+![scikit-learn](https://img.shields.io/badge/scikit--learn-343d41?style=for-the-badge&logo=scikitlearn&logoColor=de6145)
+![Linux](https://img.shields.io/badge/Linux-343d41?style=for-the-badge&logo=linux&logoColor=de6145)
+![Git](https://img.shields.io/badge/Git-343d41?style=for-the-badge&logo=git&logoColor=de6145)
+![Docker](https://img.shields.io/badge/Docker-343d41?style=for-the-badge&logo=docker&logoColor=de6145)
+![Bash](https://img.shields.io/badge/Bash-343d41?style=for-the-badge&logo=gnubash&logoColor=de6145)
+![Neovim](https://img.shields.io/badge/Neovim-343d41?style=for-the-badge&logo=neovim&logoColor=de6145)
 
 </div>
 
@@ -84,13 +84,11 @@
 
 ## `$ cat status.log`
 
-```diff
-+ [OK]      Currently studying Rust ownership & borrowing
-+ [OK]      Solving DSA problems daily
-~ [BUILD]   Working through ML/DL fundamentals
-~ [BUILD]   Exploring OS/systems programming concepts
-! [NEXT]    Open to collaborating on systems or ML projects
-```
+<div align="center">
+
+<img src="./assets/status.svg" width="600" alt="status log"/>
+
+</div>
 
 <br/>
 
@@ -98,8 +96,8 @@
 
 <div align="center">
 
-[![GitHub](https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/ZeroLayerOS)
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/ziad-ali-ds/)
+[![GitHub](https://img.shields.io/badge/GitHub-343d41?style=for-the-badge&logo=github&logoColor=d9dbdc)](https://github.com/ZeroLayerOS)
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-343d41?style=for-the-badge&logo=linkedin&logoColor=de6145)](https://www.linkedin.com/in/ziad-ali-ds/)
 
 </div>
 

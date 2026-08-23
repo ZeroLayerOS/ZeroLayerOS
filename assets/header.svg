@@ -1,18 +1,18 @@
 <svg width="800" height="180" viewBox="0 0 800 180" xmlns="http://www.w3.org/2000/svg">
   <defs>
     <linearGradient id="bgGrad" x1="0%" y1="0%" x2="100%" y2="100%">
-      <stop offset="0%" stop-color="#0f0c29">
-        <animate attributeName="stop-color" values="#0f0c29;#1a1a4a;#0f0c29" dur="6s" repeatCount="indefinite"/>
+      <stop offset="0%" stop-color="#343d41">
+        <animate attributeName="stop-color" values="#343d41;#434c50;#343d41" dur="7s" repeatCount="indefinite"/>
       </stop>
-      <stop offset="50%" stop-color="#302b63">
-        <animate attributeName="stop-color" values="#302b63;#004d4d;#302b63" dur="6s" repeatCount="indefinite"/>
+      <stop offset="50%" stop-color="#434c50">
+        <animate attributeName="stop-color" values="#434c50;#3a3230;#434c50" dur="7s" repeatCount="indefinite"/>
       </stop>
-      <stop offset="100%" stop-color="#24243e">
-        <animate attributeName="stop-color" values="#24243e;#0d1117;#24243e" dur="6s" repeatCount="indefinite"/>
+      <stop offset="100%" stop-color="#343d41">
+        <animate attributeName="stop-color" values="#343d41;#2a2422;#343d41" dur="7s" repeatCount="indefinite"/>
       </stop>
     </linearGradient>
     <filter id="glow" x="-50%" y="-50%" width="200%" height="200%">
-      <feGaussianBlur stdDeviation="4" result="blur"/>
+      <feGaussianBlur stdDeviation="3.5" result="blur"/>
       <feMerge>
         <feMergeNode in="blur"/>
         <feMergeNode in="SourceGraphic"/>
@@ -21,19 +21,20 @@
   </defs>
 
   <rect width="800" height="180" rx="14" fill="url(#bgGrad)"/>
+  <rect x="0" y="0" width="800" height="180" rx="14" fill="none" stroke="#c9c2b4" stroke-opacity="0.25" stroke-width="1.5"/>
 
   <text x="400" y="90" text-anchor="middle" font-family="Consolas, 'Courier New', monospace"
-        font-size="48" font-weight="bold" fill="#00ff9d" filter="url(#glow)">
+        font-size="48" font-weight="bold" fill="#de6145" filter="url(#glow)">
     ZeroLayerOS
-    <animate attributeName="opacity" values="0.75;1;0.75" dur="3s" repeatCount="indefinite"/>
+    <animate attributeName="opacity" values="0.8;1;0.8" dur="3.5s" repeatCount="indefinite"/>
   </text>
 
   <text x="400" y="128" text-anchor="middle" font-family="Consolas, 'Courier New', monospace"
-        font-size="18" fill="#00d4ff">
-    CS Student | Systems &amp; AI Enthusiast
+        font-size="18" fill="#d9dbdc">
+    CS Student <tspan fill="#c9c2b4">|</tspan> Systems &amp; AI Enthusiast
   </text>
 
-  <rect x="255" y="140" width="10" height="20" fill="#00ff9d">
+  <rect x="253" y="140" width="10" height="20" fill="#de6145">
     <animate attributeName="opacity" values="1;0;1" dur="1s" repeatCount="indefinite"/>
   </rect>
 </svg>
