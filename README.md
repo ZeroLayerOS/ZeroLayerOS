@@ -1,6 +1,6 @@
 <div align="center">
 
-<img src="./assets/fetch.svg" width="680" alt="fastfetch style info"/>
+<img src="./assets/fetch.svg" width="720" alt="fastfetch style info"/>
 
 </div>
 
