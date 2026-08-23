@@ -1,10 +1,10 @@
-<div align="center">
+ <div align="center">
 
-# ⚡ ZeroLayerOS
+<img src="./assets/header.svg" width="100%" alt="ZeroLayerOS header"/>
 
-### `root@ziad-ali:~$ whoami`
+<br/>
 
-**CS Student | Low-Level Systems Engineer**
+<img src="./assets/typing.svg" width="600" alt="terminal typing animation"/>
 
 </div>
 
@@ -111,5 +111,9 @@
 $ echo "Thanks for stopping by :)"
 > Thanks for stopping by :)
 ```
+
+<br/>
+
+<img src="https://raw.githubusercontent.com/ZeroLayerOS/ZeroLayerOS/output/github-contribution-grid-snake-dark.svg" width="100%" alt="contribution snake"/>
 
 </div>
