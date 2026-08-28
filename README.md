@@ -80,17 +80,6 @@
 
 <br/>
 
-## `$ ./fetch-stats.sh`
-
-<div align="center">
-
-<img src="https://github-readme-stats.vercel.app/api?username=ZeroLayerOS&show_icons=true&hide_border=true&bg_color=101315&title_color=de6145&icon_color=de6145&text_color=d3d6d6&ring_color=de6145" height="165" alt="github stats"/>
-<img src="https://github-readme-stats.vercel.app/api/top-langs/?username=ZeroLayerOS&layout=compact&hide_border=true&bg_color=101315&title_color=de6145&text_color=d3d6d6&langs_count=8" height="165" alt="top languages"/>
-
-</div>
-
-<br/>
-
 ## `$ cat status.log`
 
 <div align="center">
