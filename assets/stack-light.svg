@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="900" height="432" viewBox="0 0 900 432" role="img" aria-label="Technology stack arranged in five layers from environment to models. Dotted items are currently being learned.">
+<style>
+.row{animation:slide .6s cubic-bezier(.2,.8,.2,1) both}
+@keyframes slide{from{opacity:0;transform:translateX(-18px)}to{opacity:1;transform:none}}
+.pulse{animation:pulse 2s ease-in-out infinite}
+@keyframes pulse{50%{opacity:.3}}
+@media (prefers-reduced-motion: reduce){.ly,.row,.cur,.pulse{animation:none!important}}
+</style>
+<text x="26" y="36" font-family="ui-monospace, 'SF Mono', Menlo, Consolas, 'DejaVu Sans Mono', monospace" font-size="13" letter-spacing="3" fill="#59636e">THE STACK</text>
+<circle cx="716" cy="32" r="4" fill="#d14a2f"/>
+<text x="728" y="36.5" font-family="ui-monospace, 'SF Mono', Menlo, Consolas, 'DejaVu Sans Mono', monospace" font-size="12" fill="#59636e">currently learning</text>
+<g class="row" style="animation-delay:0.66s">
+<rect x="24.5" y="66.5" width="851" height="62" rx="12" fill="#f6f8fa" stroke="#d0d7de"/>
+<rect x="24.5" y="78" width="4" height="38" rx="2" fill="#d0543c"/>
+<text x="46" y="92" font-family="ui-monospace, 'SF Mono', Menlo, Consolas, 'DejaVu Sans Mono', monospace" font-size="11" letter-spacing="1" fill="#d14a2f">L4</text>
+<text x="46" y="113" font-family="ui-sans-serif, system-ui, -apple-system, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="16" font-weight="600" fill="#1f2328">Models</text>
+<rect x="232" y="82" width="155" height="30" rx="8" fill="#ffffff" stroke="#d14a2f" stroke-opacity="0.55"/>
+<circle class="pulse" cx="247" cy="97" r="3.5" fill="#d14a2f"/>
+<text x="259" y="101.5" font-family="ui-monospace, 'SF Mono', Menlo, Consolas, 'DejaVu Sans Mono', monospace" font-size="12" fill="#1f2328">Machine Learning</text>
+<rect x="395" y="82" width="134" height="30" rx="8" fill="#ffffff" stroke="#d14a2f" stroke-opacity="0.55"/>
+<circle class="pulse" cx="410" cy="97" r="3.5" fill="#d14a2f"/>
+<text x="422" y="101.5" font-family="ui-monospace, 'SF Mono', Menlo, Consolas, 'DejaVu Sans Mono', monospace" font-size="12" fill="#1f2328">Deep Learning</text>
+<rect x="537" y="82" width="76" height="30" rx="8" fill="#ffffff" stroke="#d0d7de" stroke-opacity="1"/>
+<text x="550" y="101.5" font-family="ui-monospace, 'SF Mono', Menlo, Consolas, 'DejaVu Sans Mono', monospace" font-size="12" fill="#1f2328">PyTorch</text>
+<rect x="621" y="82" width="98" height="30" rx="8" fill="#ffffff" stroke="#d0d7de" stroke-opacity="1"/>
+<text x="634" y="101.5" font-family="ui-monospace, 'SF Mono', Menlo, Consolas, 'DejaVu Sans Mono', monospace" font-size="12" fill="#1f2328">TensorFlow</text>
+<rect x="727" y="82" width="112" height="30" rx="8" fill="#ffffff" stroke="#d0d7de" stroke-opacity="1"/>
+<text x="740" y="101.5" font-family="ui-monospace, 'SF Mono', Menlo, Consolas, 'DejaVu Sans Mono', monospace" font-size="12" fill="#1f2328">scikit-learn</text>
+</g>
+<g class="row" style="animation-delay:0.52s">
+<rect x="24.5" y="138.5" width="851" height="62" rx="12" fill="#f6f8fa" stroke="#d0d7de"/>
+<rect x="24.5" y="150" width="4" height="38" rx="2" fill="#cd7262"/>
+<text x="46" y="164" font-family="ui-monospace, 'SF Mono', Menlo, Consolas, 'DejaVu Sans Mono', monospace" font-size="11" letter-spacing="1" fill="#818b98">L3</text>
+<text x="46" y="185" font-family="ui-sans-serif, system-ui, -apple-system, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="16" font-weight="600" fill="#1f2328">Data</text>
+<rect x="232" y="154" width="69" height="30" rx="8" fill="#ffffff" stroke="#d0d7de" stroke-opacity="1"/>
+<text x="245" y="173.5" font-family="ui-monospace, 'SF Mono', Menlo, Consolas, 'DejaVu Sans Mono', monospace" font-size="12" fill="#1f2328">Python</text>
+<rect x="309" y="154" width="126" height="30" rx="8" fill="#ffffff" stroke="#d14a2f" stroke-opacity="0.55"/>
+<circle class="pulse" cx="324" cy="169" r="3.5" fill="#d14a2f"/>
+<text x="336" y="173.5" font-family="ui-monospace, 'SF Mono', Menlo, Consolas, 'DejaVu Sans Mono', monospace" font-size="12" fill="#1f2328">Data Science</text>
+</g>
+<g class="row" style="animation-delay:0.38s">
+<rect x="24.5" y="210.5" width="851" height="62" rx="12" fill="#f6f8fa" stroke="#d0d7de"/>
+<rect x="24.5" y="222" width="4" height="38" rx="2" fill="#ca9088"/>
+<text x="46" y="236" font-family="ui-monospace, 'SF Mono', Menlo, Consolas, 'DejaVu Sans Mono', monospace" font-size="11" letter-spacing="1" fill="#818b98">L2</text>
+<text x="46" y="257" font-family="ui-sans-serif, system-ui, -apple-system, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="16" font-weight="600" fill="#1f2328">Algorithms</text>
+<rect x="232" y="226" width="148" height="30" rx="8" fill="#ffffff" stroke="#d14a2f" stroke-opacity="0.55"/>
+<circle class="pulse" cx="247" cy="241" r="3.5" fill="#d14a2f"/>
+<text x="259" y="245.5" font-family="ui-monospace, 'SF Mono', Menlo, Consolas, 'DejaVu Sans Mono', monospace" font-size="12" fill="#1f2328">Data Structures</text>
+<rect x="388" y="226" width="155" height="30" rx="8" fill="#ffffff" stroke="#d14a2f" stroke-opacity="0.55"/>
+<circle class="pulse" cx="403" cy="241" r="3.5" fill="#d14a2f"/>
+<text x="415" y="245.5" font-family="ui-monospace, 'SF Mono', Menlo, Consolas, 'DejaVu Sans Mono', monospace" font-size="12" fill="#1f2328">Algorithm Design</text>
+</g>
+<g class="row" style="animation-delay:0.24s">
+<rect x="24.5" y="282.5" width="851" height="62" rx="12" fill="#f6f8fa" stroke="#d0d7de"/>
+<rect x="24.5" y="294" width="4" height="38" rx="2" fill="#c7aeae"/>
+<text x="46" y="308" font-family="ui-monospace, 'SF Mono', Menlo, Consolas, 'DejaVu Sans Mono', monospace" font-size="11" letter-spacing="1" fill="#818b98">L1</text>
+<text x="46" y="329" font-family="ui-sans-serif, system-ui, -apple-system, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="16" font-weight="600" fill="#1f2328">Systems</text>
+<rect x="232" y="298" width="69" height="30" rx="8" fill="#ffffff" stroke="#d14a2f" stroke-opacity="0.55"/>
+<circle class="pulse" cx="247" cy="313" r="3.5" fill="#d14a2f"/>
+<text x="259" y="317.5" font-family="ui-monospace, 'SF Mono', Menlo, Consolas, 'DejaVu Sans Mono', monospace" font-size="12" fill="#1f2328">Rust</text>
+<rect x="309" y="298" width="33" height="30" rx="8" fill="#ffffff" stroke="#d0d7de" stroke-opacity="1"/>
+<text x="322" y="317.5" font-family="ui-monospace, 'SF Mono', Menlo, Consolas, 'DejaVu Sans Mono', monospace" font-size="12" fill="#1f2328">C</text>
+<rect x="350" y="298" width="48" height="30" rx="8" fill="#ffffff" stroke="#d0d7de" stroke-opacity="1"/>
+<text x="363" y="317.5" font-family="ui-monospace, 'SF Mono', Menlo, Consolas, 'DejaVu Sans Mono', monospace" font-size="12" fill="#1f2328">C++</text>
+<rect x="406" y="298" width="126" height="30" rx="8" fill="#ffffff" stroke="#d14a2f" stroke-opacity="0.55"/>
+<circle class="pulse" cx="421" cy="313" r="3.5" fill="#d14a2f"/>
+<text x="433" y="317.5" font-family="ui-monospace, 'SF Mono', Menlo, Consolas, 'DejaVu Sans Mono', monospace" font-size="12" fill="#1f2328">OS internals</text>
+<rect x="540" y="298" width="98" height="30" rx="8" fill="#ffffff" stroke="#d14a2f" stroke-opacity="0.55"/>
+<circle class="pulse" cx="555" cy="313" r="3.5" fill="#d14a2f"/>
+<text x="567" y="317.5" font-family="ui-monospace, 'SF Mono', Menlo, Consolas, 'DejaVu Sans Mono', monospace" font-size="12" fill="#1f2328">Syscalls</text>
+</g>
+<g class="row" style="animation-delay:0.10s">
+<rect x="24.5" y="354.5" width="851" height="62" rx="12" fill="#f6f8fa" stroke="#d0d7de"/>
+<rect x="24.5" y="366" width="4" height="38" rx="2" fill="#c4ccd4"/>
+<text x="46" y="380" font-family="ui-monospace, 'SF Mono', Menlo, Consolas, 'DejaVu Sans Mono', monospace" font-size="11" letter-spacing="1" fill="#818b98">L0</text>
+<text x="46" y="401" font-family="ui-sans-serif, system-ui, -apple-system, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="16" font-weight="600" fill="#1f2328">Environment</text>
+<rect x="232" y="370" width="62" height="30" rx="8" fill="#ffffff" stroke="#d0d7de" stroke-opacity="1"/>
+<text x="245" y="389.5" font-family="ui-monospace, 'SF Mono', Menlo, Consolas, 'DejaVu Sans Mono', monospace" font-size="12" fill="#1f2328">Linux</text>
+<rect x="302" y="370" width="55" height="30" rx="8" fill="#ffffff" stroke="#d0d7de" stroke-opacity="1"/>
+<text x="315" y="389.5" font-family="ui-monospace, 'SF Mono', Menlo, Consolas, 'DejaVu Sans Mono', monospace" font-size="12" fill="#1f2328">Bash</text>
+<rect x="365" y="370" width="48" height="30" rx="8" fill="#ffffff" stroke="#d0d7de" stroke-opacity="1"/>
+<text x="378" y="389.5" font-family="ui-monospace, 'SF Mono', Menlo, Consolas, 'DejaVu Sans Mono', monospace" font-size="12" fill="#1f2328">zsh</text>
+<rect x="421" y="370" width="48" height="30" rx="8" fill="#ffffff" stroke="#d0d7de" stroke-opacity="1"/>
+<text x="434" y="389.5" font-family="ui-monospace, 'SF Mono', Menlo, Consolas, 'DejaVu Sans Mono', monospace" font-size="12" fill="#1f2328">Git</text>
+<rect x="477" y="370" width="69" height="30" rx="8" fill="#ffffff" stroke="#d0d7de" stroke-opacity="1"/>
+<text x="490" y="389.5" font-family="ui-monospace, 'SF Mono', Menlo, Consolas, 'DejaVu Sans Mono', monospace" font-size="12" fill="#1f2328">Docker</text>
+<rect x="554" y="370" width="69" height="30" rx="8" fill="#ffffff" stroke="#d0d7de" stroke-opacity="1"/>
+<text x="567" y="389.5" font-family="ui-monospace, 'SF Mono', Menlo, Consolas, 'DejaVu Sans Mono', monospace" font-size="12" fill="#1f2328">Neovim</text>
+</g>
+</svg>

@@ -1,115 +1,35 @@
 <div align="center">
 
-<img src="./assets/fetch.svg" width="720" alt="fastfetch style info"/>
-
-<sub>CS student building at the systems ↔ AI boundary — Rust on one side, PyTorch on the other.</sub>
-
-</div>
-
-<br/>
-
-```
-┌──(ziad㉿machine)-[~/about-me]
-└─$ cat profile.json
-```
-
-```json
-{
-  "name": "Ziad Ali",
-  "role": "CS Student",
-  "status": "Learning & Building",
-  "currently_learning": [
-    "Rust",
-    "Machine Learning",
-    "Deep Learning",
-    "Data Structures & Algorithms",
-    "Data Science",
-    "Systems Programming"
-  ],
-  "shell": "zsh",
-  "editor": "neovim",
-  "coffee_level": "critical"
-}
-```
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="./assets/hero-dark.svg">
+  <source media="(prefers-color-scheme: light)" srcset="./assets/hero-light.svg">
+  <img src="./assets/hero-light.svg" width="100%" alt="Ziad Ali — CS student building at the systems and AI boundary. Open to collaborate.">
+</picture>
 
 <br/>
 
-## `$ ls -la ./stack`
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-ziad--ali--ds-de6145?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/ziad-ali-ds/)
 
-<div align="center">
+<img src="./assets/divider.svg" width="100%" alt="">
 
-![Rust](https://img.shields.io/badge/Rust-343d41?style=for-the-badge&logo=rust&logoColor=de6145)
-![Python](https://img.shields.io/badge/Python-343d41?style=for-the-badge&logo=python&logoColor=de6145)
-![C++](https://img.shields.io/badge/C%2B%2B-343d41?style=for-the-badge&logo=cplusplus&logoColor=de6145)
-![C](https://img.shields.io/badge/C-343d41?style=for-the-badge&logo=c&logoColor=de6145)
-![PyTorch](https://img.shields.io/badge/PyTorch-343d41?style=for-the-badge&logo=pytorch&logoColor=de6145)
-![TensorFlow](https://img.shields.io/badge/TensorFlow-343d41?style=for-the-badge&logo=tensorflow&logoColor=de6145)
-![scikit-learn](https://img.shields.io/badge/scikit--learn-343d41?style=for-the-badge&logo=scikitlearn&logoColor=de6145)
-![Linux](https://img.shields.io/badge/Linux-343d41?style=for-the-badge&logo=linux&logoColor=de6145)
-![Git](https://img.shields.io/badge/Git-343d41?style=for-the-badge&logo=git&logoColor=de6145)
-![Docker](https://img.shields.io/badge/Docker-343d41?style=for-the-badge&logo=docker&logoColor=de6145)
-![Bash](https://img.shields.io/badge/Bash-343d41?style=for-the-badge&logo=gnubash&logoColor=de6145)
-![Neovim](https://img.shields.io/badge/Neovim-343d41?style=for-the-badge&logo=neovim&logoColor=de6145)
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="./assets/stack-dark.svg">
+  <source media="(prefers-color-scheme: light)" srcset="./assets/stack-light.svg">
+  <img src="./assets/stack-light.svg" width="100%" alt="Tech stack in five layers. L4 models: machine learning, deep learning, PyTorch, TensorFlow, scikit-learn. L3 data: Python, data science. L2 algorithms: data structures, algorithm design. L1 systems: Rust, C, C++, OS internals, syscalls. L0 environment: Linux, Bash, zsh, Git, Docker, Neovim. Machine learning, deep learning, data science, DSA, Rust and systems programming are currently being learned.">
+</picture>
 
-</div>
+<img src="./assets/divider.svg" width="100%" alt="">
 
-<br/>
+<!--
+Projects (add 2-3 lines here once you have repos to point at):
 
-## `$ cat learning_roadmap.md`
+**[project-name](https://github.com/ZeroLayerOS/project-name)** — one sentence: what it does, what you built it with.
+-->
 
-<table align="center">
-<tr>
-<td valign="top" width="50%">
-
-**⚙️ Systems & Low-Level**
-- 🦀 Rust — ownership, memory safety, concurrency
-- 🖥️ System Programming — OS internals, syscalls
-- 📐 DSA — data structures & algorithm design
-
-</td>
-<td valign="top" width="50%">
-
-**🧠 AI / Data**
-- 🤖 Machine Learning
-- 🧬 Deep Learning
-- 📊 Data Science — analysis & visualization
-
-</td>
-</tr>
-</table>
-
-<br/>
-
-## `$ cat status.log`
-
-<div align="center">
-
-<img src="./assets/status.svg" width="600" alt="status log"/>
-
-</div>
-
-<br/>
-
-## `$ cat contact.sh`
-
-<div align="center">
-
-[![GitHub](https://img.shields.io/badge/GitHub-343d41?style=for-the-badge&logo=github&logoColor=d9dbdc)](https://github.com/ZeroLayerOS)
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-343d41?style=for-the-badge&logo=linkedin&logoColor=de6145)](https://www.linkedin.com/in/ziad-ali-ds/)
-
-</div>
-
-<br/>
-
-<div align="center">
-
-```
-$ echo "Thanks for stopping by :)"
-> Thanks for stopping by :)
-```
-
-<br/>
-
-<img src="https://raw.githubusercontent.com/ZeroLayerOS/ZeroLayerOS/output/github-contribution-grid-snake-dark.svg" width="100%" alt="contribution snake"/>
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/ZeroLayerOS/ZeroLayerOS/output/github-contribution-grid-snake-dark.svg">
+  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/ZeroLayerOS/ZeroLayerOS/output/github-contribution-grid-snake.svg">
+  <img src="https://raw.githubusercontent.com/ZeroLayerOS/ZeroLayerOS/output/github-contribution-grid-snake.svg" width="100%" alt="Contribution graph snake animation">
+</picture>
 
 </div>
