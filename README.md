@@ -15,7 +15,7 @@
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="./assets/stack-dark.svg">
   <source media="(prefers-color-scheme: light)" srcset="./assets/stack-light.svg">
-  <img src="./assets/stack-light.svg" width="100%" alt="Tech stack in five layers. L4 models: machine learning, deep learning, PyTorch, TensorFlow, scikit-learn. L3 data: Python, data science. L2 algorithms: data structures, algorithm design. L1 systems: Rust, C, C++, OS internals, syscalls. L0 environment: Linux, Bash, zsh, Git, Docker, Neovim. Machine learning, deep learning, data science, DSA, Rust and systems programming are currently being learned.">
+  <img src="./assets/stack-light.svg" width="100%" alt="Tech stack in five layers. L4 models: machine learning, deep learning, PyTorch, scikit-learn. L3 data: Python, data science. L2 algorithms: data structures, algorithm design. L1 systems: Rust, C, OS internals, syscalls. L0 environment: Linux, Bash, zsh, Git, Docker, Neovim. Machine learning, deep learning, data science, DSA, Rust and systems programming are currently being learned.">
 </picture>
 
 <img src="./assets/divider.svg" width="100%" alt="">

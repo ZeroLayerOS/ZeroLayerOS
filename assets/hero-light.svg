@@ -4,63 +4,105 @@
 <clipPath id="r"><rect width="900" height="320" rx="14"/></clipPath>
 <pattern id="dots" width="22" height="22" patternUnits="userSpaceOnUse"><circle cx="2" cy="2" r="1" fill="#818b98" fill-opacity="0.35"/></pattern>
 <linearGradient id="bar" x1="0" x2="1"><stop offset="0" stop-color="#d14a2f"/><stop offset="0.6" stop-color="#d14a2f" stop-opacity="0"/></linearGradient>
+<linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#fbf7f5"/><stop offset="1" stop-color="#ffffff"/></linearGradient>
+<radialGradient id="glow" cx="170" cy="150" r="230" gradientUnits="userSpaceOnUse"><stop offset="0" stop-color="#d14a2f" stop-opacity="0.2"/><stop offset="1" stop-color="#d14a2f" stop-opacity="0"/></radialGradient>
+<linearGradient id="nm" x1="0" x2="1"><stop offset="0" stop-color="#1f2328"/><stop offset="1" stop-color="#6f352b"/></linearGradient>
+<linearGradient id="lg0" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#d6dbe1"/><stop offset="1" stop-color="#c4ccd4"/></linearGradient>
+<linearGradient id="lg1" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#d8c6c6"/><stop offset="1" stop-color="#c7aeae"/></linearGradient>
+<linearGradient id="lg2" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#dab1ac"/><stop offset="1" stop-color="#ca9088"/></linearGradient>
+<linearGradient id="lg3" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#dc9c91"/><stop offset="1" stop-color="#cd7262"/></linearGradient>
+<linearGradient id="lg4" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#de8776"/><stop offset="1" stop-color="#d0543c"/></linearGradient>
 </defs>
 <style>
 .ly{animation:drop .7s cubic-bezier(.2,.8,.2,1) both}
 @keyframes drop{from{opacity:0;transform:translateY(-16px)}to{opacity:1;transform:none}}
+.fl{animation:float 5s ease-in-out infinite}
+@keyframes float{50%{transform:translateY(-3px)}}
+.bit{animation:rise 4.5s ease-in infinite;opacity:0}
+@keyframes rise{0%{opacity:0;transform:translateY(14px)}30%{opacity:.85}100%{opacity:0;transform:translateY(-22px)}}
 .cur{animation:blink 1.1s steps(1) infinite}
 @keyframes blink{50%{opacity:0}}
 .pulse{animation:pulse 2s ease-in-out infinite}
 @keyframes pulse{50%{opacity:.25}}
-@media (prefers-reduced-motion: reduce){.ly,.row,.cur,.pulse{animation:none!important}}
+@media (prefers-reduced-motion: reduce){.ly,.fl,.row,.cur,.pulse,.bit{animation:none!important}}
 </style>
 <g clip-path="url(#r)">
-<rect width="900" height="320" fill="#ffffff"/>
+<rect width="900" height="320" fill="url(#bg)"/>
 <rect width="900" height="320" fill="url(#dots)"/>
+<rect width="900" height="320" fill="url(#glow)"/>
 <rect width="900" height="3" fill="url(#bar)"/>
 </g>
 <rect x="0.5" y="0.5" width="899" height="319" rx="14" fill="none" stroke="#d0d7de"/>
-<ellipse cx="170" cy="297" rx="102.0" ry="8" fill="#d14a2f" fill-opacity="0.12"/>
+<ellipse cx="170" cy="297" rx="102.0" ry="8" fill="#d14a2f" fill-opacity="0.16"/>
 <g class="ly" style="animation-delay:0.15s">
-<polygon points="50,238 170,278 170,287 50,247" fill="#959ba1"/>
-<polygon points="290,238 170,278 170,287 290,247" fill="#acb4bb"/>
-<polygon points="170,198 290,238 170,278 50,238" fill="#c4ccd4" stroke="#ffffff" stroke-width="1.5" stroke-linejoin="round"/>
+<g class="fl" style="animation-delay:-0.0s">
+<polygon points="50,238 170,278 170,287 50,247" fill="#91979d"/>
+<polygon points="290,238 170,278 170,287 290,247" fill="#abb1b8"/>
+<polygon points="170,198 290,238 170,278 50,238" fill="url(#lg0)" stroke="#ffffff" stroke-width="1.5" stroke-linejoin="round"/>
+<polyline points="54,238 170,275 286,238" fill="none" stroke="#ffffff" stroke-opacity="0.18" stroke-width="1"/>
+</g>
 <line x1="302" y1="238" x2="342" y2="238" stroke="#818b98" stroke-width="1" stroke-dasharray="2 3"/>
+<circle cx="302" cy="238" r="2" fill="#818b98"/>
 <text x="350" y="242" font-family="ui-monospace, 'SF Mono', Menlo, Consolas, 'DejaVu Sans Mono', monospace" font-size="12" fill="#818b98">L0</text>
 </g>
 <g class="ly" style="animation-delay:0.33s">
-<polygon points="50,196 170,236 170,245 50,205" fill="#978484"/>
-<polygon points="290,196 170,236 170,245 290,205" fill="#af9999"/>
-<polygon points="170,156 290,196 170,236 50,196" fill="#c7aeae" stroke="#ffffff" stroke-width="1.5" stroke-linejoin="round"/>
+<g class="fl" style="animation-delay:-0.9s">
+<polygon points="50,196 170,236 170,245 50,205" fill="#938181"/>
+<polygon points="290,196 170,236 170,245 290,205" fill="#ad9797"/>
+<polygon points="170,156 290,196 170,236 50,196" fill="url(#lg1)" stroke="#ffffff" stroke-width="1.5" stroke-linejoin="round"/>
+<polyline points="54,196 170,233 286,196" fill="none" stroke="#ffffff" stroke-opacity="0.18" stroke-width="1"/>
+</g>
 <line x1="302" y1="196" x2="342" y2="196" stroke="#818b98" stroke-width="1" stroke-dasharray="2 3"/>
+<circle cx="302" cy="196" r="2" fill="#818b98"/>
 <text x="350" y="200" font-family="ui-monospace, 'SF Mono', Menlo, Consolas, 'DejaVu Sans Mono', monospace" font-size="12" fill="#818b98">L1</text>
 </g>
 <g class="ly" style="animation-delay:0.51s">
-<polygon points="50,154 170,194 170,203 50,163" fill="#9a6d67"/>
-<polygon points="290,154 170,194 170,203 290,163" fill="#b27f78"/>
-<polygon points="170,114 290,154 170,194 50,154" fill="#ca9088" stroke="#ffffff" stroke-width="1.5" stroke-linejoin="round"/>
+<g class="fl" style="animation-delay:-1.8s">
+<polygon points="50,154 170,194 170,203 50,163" fill="#956b65"/>
+<polygon points="290,154 170,194 170,203 290,163" fill="#b07d76"/>
+<polygon points="170,114 290,154 170,194 50,154" fill="url(#lg2)" stroke="#ffffff" stroke-width="1.5" stroke-linejoin="round"/>
+<polyline points="54,154 170,191 286,154" fill="none" stroke="#ffffff" stroke-opacity="0.18" stroke-width="1"/>
+</g>
 <line x1="302" y1="154" x2="342" y2="154" stroke="#818b98" stroke-width="1" stroke-dasharray="2 3"/>
+<circle cx="302" cy="154" r="2" fill="#818b98"/>
 <text x="350" y="158" font-family="ui-monospace, 'SF Mono', Menlo, Consolas, 'DejaVu Sans Mono', monospace" font-size="12" fill="#818b98">L2</text>
 </g>
 <g class="ly" style="animation-delay:0.69s">
-<polygon points="50,112 170,152 170,161 50,121" fill="#9c574a"/>
-<polygon points="290,112 170,152 170,161 290,121" fill="#b46456"/>
-<polygon points="170,72 290,112 170,152 50,112" fill="#cd7262" stroke="#ffffff" stroke-width="1.5" stroke-linejoin="round"/>
+<g class="fl" style="animation-delay:-2.7s">
+<polygon points="50,112 170,152 170,161 50,121" fill="#985449"/>
+<polygon points="290,112 170,152 170,161 290,121" fill="#b26355"/>
+<polygon points="170,72 290,112 170,152 50,112" fill="url(#lg3)" stroke="#ffffff" stroke-width="1.5" stroke-linejoin="round"/>
+<polyline points="54,112 170,149 286,112" fill="none" stroke="#ffffff" stroke-opacity="0.18" stroke-width="1"/>
+</g>
 <line x1="302" y1="112" x2="342" y2="112" stroke="#818b98" stroke-width="1" stroke-dasharray="2 3"/>
+<circle cx="302" cy="112" r="2" fill="#818b98"/>
 <text x="350" y="116" font-family="ui-monospace, 'SF Mono', Menlo, Consolas, 'DejaVu Sans Mono', monospace" font-size="12" fill="#818b98">L3</text>
 </g>
 <g class="ly" style="animation-delay:0.87s">
-<polygon points="50,70 170,110 170,119 50,79" fill="#9e402e"/>
-<polygon points="290,70 170,110 170,119 290,79" fill="#b74a35"/>
-<polygon points="170,30 290,70 170,110 50,70" fill="#d0543c" stroke="#ffffff" stroke-width="1.5" stroke-linejoin="round"/>
+<g class="fl" style="animation-delay:-3.6s">
+<polygon points="50,70 170,110 170,119 50,79" fill="#9a3e2c"/>
+<polygon points="290,70 170,110 170,119 290,79" fill="#b54934"/>
+<polygon points="170,30 290,70 170,110 50,70" fill="url(#lg4)" stroke="#ffffff" stroke-width="1.5" stroke-linejoin="round"/>
+<polyline points="54,70 170,107 286,70" fill="none" stroke="#ffffff" stroke-opacity="0.18" stroke-width="1"/>
+</g>
 <line x1="302" y1="70" x2="342" y2="70" stroke="#818b98" stroke-width="1" stroke-dasharray="2 3"/>
+<circle cx="302" cy="70" r="2" fill="#d14a2f"/>
 <text x="350" y="74" font-family="ui-monospace, 'SF Mono', Menlo, Consolas, 'DejaVu Sans Mono', monospace" font-size="12" fill="#d14a2f">L4</text>
 </g>
-<text x="430" y="86" font-family="ui-monospace, 'SF Mono', Menlo, Consolas, 'DejaVu Sans Mono', monospace" font-size="14"><tspan fill="#d14a2f">ziad@zerolayeros</tspan><tspan fill="#818b98">:~$ </tspan><tspan fill="#1f2328">whoami</tspan><tspan class="cur" fill="#d14a2f">_</tspan></text>
-<text x="428" y="150" font-family="ui-sans-serif, system-ui, -apple-system, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="52" font-weight="700" letter-spacing="-1.5" fill="#1f2328">Ziad Ali</text>
-<text x="430" y="188" font-family="ui-sans-serif, system-ui, -apple-system, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="20"><tspan fill="#59636e">CS student</tspan><tspan fill="#818b98">  ·  </tspan><tspan fill="#d14a2f" font-weight="600">systems ↔ AI</tspan></text>
-<text x="430" y="218" font-family="ui-sans-serif, system-ui, -apple-system, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="15" fill="#59636e">Rust on one side. PyTorch on the other.</text>
-<rect x="430" y="244" width="196" height="30" rx="15" fill="#f6f8fa" stroke="#d0d7de"/>
-<circle class="pulse" cx="449" cy="259" r="4" fill="#1a7f37"/>
-<text x="463" y="263.5" font-family="ui-monospace, 'SF Mono', Menlo, Consolas, 'DejaVu Sans Mono', monospace" font-size="13" fill="#1f2328">open to collaborate</text>
+<rect class="bit" x="120" y="44" width="4" height="4" rx="1" fill="#d14a2f" style="animation-delay:0s"/>
+<rect class="bit" x="205" y="30" width="4" height="4" rx="1" fill="#d14a2f" style="animation-delay:1.1s"/>
+<rect class="bit" x="160" y="58" width="4" height="4" rx="1" fill="#d14a2f" style="animation-delay:2.2s"/>
+<rect class="bit" x="235" y="52" width="4" height="4" rx="1" fill="#d14a2f" style="animation-delay:0.6s"/>
+<rect class="bit" x="95" y="66" width="4" height="4" rx="1" fill="#d14a2f" style="animation-delay:1.7s"/>
+<circle cx="436" cy="48" r="4.5" fill="#d14a2f" fill-opacity="0.9"/>
+<circle cx="452" cy="48" r="4.5" fill="#818b98" fill-opacity="0.45"/>
+<circle cx="468" cy="48" r="4.5" fill="#818b98" fill-opacity="0.25"/>
+<text x="430" y="94" font-family="ui-monospace, 'SF Mono', Menlo, Consolas, 'DejaVu Sans Mono', monospace" font-size="14"><tspan fill="#d14a2f">ziad@zerolayeros</tspan><tspan fill="#818b98">:~$ </tspan><tspan fill="#1f2328">whoami</tspan><tspan class="cur" fill="#d14a2f">_</tspan></text>
+<text x="428" y="156" font-family="ui-sans-serif, system-ui, -apple-system, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="54" font-weight="800" letter-spacing="-1.5" fill="url(#nm)">Ziad Ali</text>
+<rect x="430" y="170" width="44" height="3" rx="1.5" fill="#d14a2f"/>
+<text x="430" y="202" font-family="ui-sans-serif, system-ui, -apple-system, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="20"><tspan fill="#59636e">CS student</tspan><tspan fill="#818b98">  ·  </tspan><tspan fill="#d14a2f" font-weight="600">systems ↔ AI</tspan></text>
+<text x="430" y="230" font-family="ui-sans-serif, system-ui, -apple-system, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="15" fill="#59636e">Rust on one side. PyTorch on the other.</text>
+<rect x="430" y="252" width="196" height="30" rx="15" fill="#e8f2eb" stroke="#7eaf93"/>
+<circle class="pulse" cx="449" cy="267" r="4" fill="#1a7f37"/>
+<text x="463" y="271.5" font-family="ui-monospace, 'SF Mono', Menlo, Consolas, 'DejaVu Sans Mono', monospace" font-size="13" fill="#1f2328">open to collaborate</text>
 </svg>
